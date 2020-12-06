@@ -37,7 +37,7 @@ def check_readability(events_dict):
     events_to_check = {}
     for name, event in events_dict.items():
         if not isinstance(event, dict):
-            errors_list.append(create_error(name, '-', "Unpropriate format"))
+            errors_list.append(create_error(name, '-', "Invalid format"))
         elif 'event' not in event:
             errors_list.append(create_error(name, '-', "Missing key 'event'"))
         elif 'data' not in event or event['data'] is None:
