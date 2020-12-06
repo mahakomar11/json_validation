@@ -6,7 +6,7 @@
 
 ### Результаты
 
-[Таблица с ошибками](errors_table.html)
+[Таблица с ошибками](https://mahakomar11.github.io/json_validation/errors_table)
 
 ### Как читать результаты
 
